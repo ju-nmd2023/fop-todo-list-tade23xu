@@ -34,3 +34,7 @@ html {
   padding: 0;
   text-align: center;
 }
+
+.remove-button {
+  margin-left: 10px;
+}

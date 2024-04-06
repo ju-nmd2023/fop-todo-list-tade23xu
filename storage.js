@@ -44,6 +44,7 @@ function displayTasks() {
 
     const removeButton = document.createElement("button");
     removeButton.textContent = "Remove";
+    removeButton.classList.add("remove-button");
     removeButton.addEventListener("click", () => {
       tasks.splice(index, 1);
       localStorage.setItem("tasks", JSON.stringify(tasks));
