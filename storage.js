@@ -32,7 +32,7 @@ function displayTasks() {
     checkbox.addEventListener("change", () => {
       tasks[index].done = checkbox.checked;
       localStorage.setItem("tasks", JSON.stringify(tasks));
-      displayTasks(); // Refresh the task list
+      displayTasks();
     });
 
     const label = document.createElement("label");
@@ -48,7 +48,7 @@ function displayTasks() {
     removeButton.addEventListener("click", () => {
       tasks.splice(index, 1);
       localStorage.setItem("tasks", JSON.stringify(tasks));
-      displayTasks(); // Refresh the task list
+      displayTasks();
     });
 
     listItem.appendChild(checkbox);
