@@ -38,3 +38,16 @@ html {
 .remove-button {
   margin-left: 10px;
 }
+
+li {
+  background-color: rgba(255, 192, 203, 0.5);
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+li:hover {
+  transform: translateY(-3px);
+}
