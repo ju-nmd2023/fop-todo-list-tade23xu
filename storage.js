@@ -13,7 +13,7 @@ function clickHandler() {
 
     displayTasks();
   } else {
-    alert("Please enter a task.");
+    alert("Add a task to continue <3");
   }
 }
 
