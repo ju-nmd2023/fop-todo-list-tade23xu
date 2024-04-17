@@ -15,6 +15,7 @@ function clickHandler() {
   } else {
     alert("Add a task to continue <3");
   }
+  //message feature is provided by chatGPT
 }
 
 function displayTasks() {
@@ -47,6 +48,7 @@ function displayTasks() {
     removeButton.classList.add("remove-button");
     removeButton.addEventListener("click", () => {
       tasks.splice(index, 1);
+      //Line 50 is learnt from chatGPT which funtions for removing task
       localStorage.setItem("tasks", JSON.stringify(tasks));
       displayTasks();
     });
